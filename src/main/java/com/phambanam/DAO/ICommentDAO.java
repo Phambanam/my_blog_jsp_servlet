@@ -1,0 +1,4 @@
+package com.phambanam.DAO;
+
+public interface ICommentDAO {
+}
