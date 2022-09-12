@@ -14,10 +14,16 @@
       <meta name="description" content="" />
       <meta name="author" content="" />
       <title>Blog Home - Start Bootstrap Template</title>
+      <script src="<c:url value='/templates/admin/vendor/jquery/jquery.js'/>"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+      <script src="<c:url value='/templates/paging/jquery.twbsPagination.js'/>" type="text/javascript"></script>
       <!-- Favicon-->
       <link rel="icon" type="image/x-icon" href="<c:url value= '/templates/web/assets/favicon.ico'/>" />
       <!-- Core theme CSS (includes Bootstrap)-->
       <link href="<c:url value= '/templates/web/css/styles.css'/>" rel="stylesheet" />
+
 
   </head>
   <body>
