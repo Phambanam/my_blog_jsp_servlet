@@ -1,6 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="/common/taglib.jsp" %>
-<html>
 
     <body>
 
@@ -23,7 +22,7 @@
                         <!-- Preview image figure-->
 
                         <c:if test="${ not empty model.thumbnail}">
-                            <figure class="mb-4"><img class="img-fluid rounded" src="${model.thumbnail}" alt="..." /></figure>
+                            <figure class="mb-4"><img class="img-fluid rounded" width="100%" src="${model.thumbnail}" alt="..." /></figure>
                         </c:if>
                         <c:if test="${empty model.thumbnail}">
                             <figure class="mb-4"><img class="img-fluid rounded" src="https://dummyimage.com/900x400/ced4da/6c757d.jpg" alt="..." /></figure>
@@ -118,4 +117,4 @@
                 </div>
             </div>
         </div>
-</html>
+
